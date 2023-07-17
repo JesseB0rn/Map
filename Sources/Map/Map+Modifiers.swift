@@ -8,7 +8,7 @@
 import Foundation
 
 extension Map {
-    func bottomInset (_ inset: CGFloat) -> Map {
+    public func bottomInset (_ inset: CGFloat) -> Map {
         var view = self
         view.bottomInset = inset
         return view
